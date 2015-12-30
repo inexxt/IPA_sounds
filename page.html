@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> IPA to speech utility </title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="keywords" content="IPA, text, speech, sound, phonetics, alphabet">
+		<link rel="shortcut icon" href="images/icon.ico">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<img id ="logo" src="images/logo.jpeg">
+			<div id="header_links">
+				<a href="http://mojastrona.pl/contact">What is IPA?</a> | <a href="http://mojastrona.pl/contact">Contact us</a>
+			</div>
+		</div>
+		
+		<div class="hint"> You can copy a word from sources like Wikipedia or type it using "editor mode" </div>
+		<form id="text_field">
+			<textarea name="text_area" id="text_area" cols="1" rows="1">Copy text here</textarea>
+			<div id="text_field_controls">
+				<button id="Play"> Play </button></br>
+				<button id="Settings"> Settings </button></br>
+				<button type="reset" id="Clear"> Clear </button></br>
+				<div id="Volume">
+					<button id="Volume_mute">
+						<img src="images/volume.png">
+					</button>
+					<input type="range" min="0" max="100" />
+				</div>
+			</div>
+		</form>
+		
+		<div id="footer"> Created by Jacek Karwowski, 2014 </div>
+	</body>
+</html>
+		
